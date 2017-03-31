@@ -723,7 +723,7 @@ input[type=button].input {
           justify-content: flex-end;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: ${breakpoint_tablet_min}) {
   .control.is-horizontal {
     box-sizing: inherit;
     margin: 0;
@@ -800,7 +800,7 @@ input[type=button].input {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: ${breakpoint_mobile_max}) {
   .control-label {
     font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     -moz-osx-font-smoothing: grayscale;
@@ -811,7 +811,7 @@ input[type=button].input {
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: ${breakpoint_tablet_min}) {
   .control-label {
     vertical-align: baseline;
     font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;

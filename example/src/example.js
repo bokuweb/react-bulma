@@ -87,6 +87,13 @@ export default class Example extends Component {
   render() {
     return (
       <div>
+        <Columns responsive="isMobile">
+          <Column size="is2">Is Mobile 1</Column>
+          <Column size="is3">Is Mobile 2</Column>
+        </Columns>
+
+        <hr/>
+
         <Button >test</Button>
         <Button size="isLarge" states="isActive">Guthub</Button>
         <Button size="isSmall" states="isActive" icon="fa fa-github">Github</Button>

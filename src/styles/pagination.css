@@ -75,7 +75,7 @@
           justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: ${breakpoint_mobile_max}) {
   .pagination {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -98,7 +98,7 @@
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: ${breakpoint_tablet_min}) {
   .pagination > a:not(:first-child) {
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
