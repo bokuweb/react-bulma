@@ -6293,90 +6293,90 @@ span.__re-bulma_panel-block:hover {
 }
 
 @media screen and (min-width: 769px) {
-  .__re-bulma_tile:not(.__re-bulma_is-child) {
+  .__re-bulma_tile:not(.__re-bulma_is-child):not(.__re-bulma_is-desktop) {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
   }
-  .__re-bulma_tile.__re-bulma_is-1 {
+  .__re-bulma_tile.__re-bulma_is-1:not(.__re-bulma_is-desktop) {
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
     width: 8.33333%;
   }
-  .__re-bulma_tile.__re-bulma_is-2 {
+  .__re-bulma_tile.__re-bulma_is-2:not(.__re-bulma_is-desktop) {
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
     width: 16.66667%;
   }
-  .__re-bulma_tile.__re-bulma_is-3 {
+  .__re-bulma_tile.__re-bulma_is-3:not(.__re-bulma_is-desktop) {
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
     width: 25%;
   }
-  .__re-bulma_tile.__re-bulma_is-4 {
+  .__re-bulma_tile.__re-bulma_is-4:not(.__re-bulma_is-desktop) {
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
     width: 33.33333%;
   }
-  .__re-bulma_tile.__re-bulma_is-5 {
+  .__re-bulma_tile.__re-bulma_is-5:not(.__re-bulma_is-desktop) {
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
     width: 41.66667%;
   }
-  .__re-bulma_tile.__re-bulma_is-6 {
+  .__re-bulma_tile.__re-bulma_is-6:not(.__re-bulma_is-desktop) {
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
     width: 50%;
   }
-  .__re-bulma_tile.__re-bulma_is-7 {
+  .__re-bulma_tile.__re-bulma_is-7:not(.__re-bulma_is-desktop) {
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
     width: 58.33333%;
   }
-  .__re-bulma_tile.__re-bulma_is-8 {
+  .__re-bulma_tile.__re-bulma_is-8:not(.__re-bulma_is-desktop) {
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
     width: 66.66667%;
   }
-  .__re-bulma_tile.__re-bulma_is-9 {
+  .__re-bulma_tile.__re-bulma_is-9:not(.__re-bulma_is-desktop) {
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
     width: 75%;
   }
-  .__re-bulma_tile.__re-bulma_is-10 {
+  .__re-bulma_tile.__re-bulma_is-10:not(.__re-bulma_is-desktop) {
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
     width: 83.33333%;
   }
-  .__re-bulma_tile.__re-bulma_is-11 {
+  .__re-bulma_tile.__re-bulma_is-11:not(.__re-bulma_is-desktop) {
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
             flex: none;
     width: 91.66667%;
   }
-  .__re-bulma_tile.__re-bulma_is-12 {
+  .__re-bulma_tile.__re-bulma_is-12:not(.__re-bulma_is-desktop) {
     -webkit-box-flex: 0;
     -webkit-flex: none;
         -ms-flex: none;
