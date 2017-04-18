@@ -97,24 +97,6 @@ export default class Button extends DataComponent {
       : this.renderLeftIcon();
   }
 
-  renderDataAttributes() {
-    if (this.props.data && this.props.data.length>0) {
-      return this.props.data.map(d => {
-        return "data-"+d.name + " = " + d.value;}
-      ).join(" ");
-    } else
-      return null;
-  }
-
-  renderDataAttributes() {
-    if (this.props.data && this.props.data.length>0) {
-      return this.props.data.map(d => {
-        return "data-"+d.name + " = " + d.value;}
-      ).join(" ");
-    } else
-      return null;
-  }
-
   render() {
     return (
       <button
